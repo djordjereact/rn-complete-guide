@@ -17,7 +17,7 @@ export default function App() {
 
   const removeGoalHandler = goalId => {
       setCourseGoals(currentGoals => {
-          return currentGoals.filter((goal) => goal.id !== goalId);
+          return currentGoals.filter((goal) => goal.id !== goalId);//3:10:14
       });
   };
 
